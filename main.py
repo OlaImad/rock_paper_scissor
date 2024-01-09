@@ -43,6 +43,11 @@ second_index = int(place[1]) - 1
 map[first_index][second_index] = 'X'
 print(f'{row1}\n{row2}\n{row3}')
 
+
+# a different way when the inout is a3 for example. 
+letter = position[0]
+abc = ['a','b', 'c']
+letter_index = abc.index(letter)
 ############################################################
 user_answer = int(input('What do you choose? type 0 for rock, 1 for paper or 2 for scissors.\n'))
 
